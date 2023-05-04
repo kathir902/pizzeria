@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 15vh;
+}
+.menu .logo{
+    font-size: 25px;
+    padding: 15px;
+    color: gray;
+}
+.menu .icon{
+    place-self: center;
+    color: black;
+    font-size: 30px;
+    justify-content: end;
+}
+.intro {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.header h6{
+    font-size: 25px;
+}
+.header h1{
+    font-size: 50px;
+    font-weight: 550;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.address p{
+    font-size: 18px;
+}
+.intro .contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.address i{
+    margin-right: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.address{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.address p{
+    word-spacing: 10px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid orangered;
+    border-radius: 50px;
+    margin: 15px 0 15px 10px;
+    cursor: pointer;
+    background: #fff;
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.5s;
+}
+.image1 img{
+    border: 1px solid;
+    border-radius: 50px;
+    /* height: 280px; */
+    object-fit: cover;
+    padding: 0 ;
+}
+/* .container2 */
+.work{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 40px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about .pizzaicon img{
+    height: 60px;
+}
+.about p{
+    padding-bottom: 80px;
+}
+.organic .organ img{ 
+    height: 60px;
+}
+.organic p{
+    padding-bottom: 80px;
+}
+.pizzaa img{
+    height: 60px;
+}
+.pizzaa p{
+    padding-bottom: 60px;
+}
+.pasta img{
+    height: 60px;
+}
+.pasta p{
+    padding-bottom: 100px;
+}
+/* .container3 */
+.container3{
+    display: flex;
+    flex-direction: column;
+    background: black;
+}
+.pizzaheadertext{
+    height: 80vh;
+    background-image: url(./images/img7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pizzaheadertext h2{
+    position: absolute;
+    bottom: 30px;
+}
+.pizzatypes .pizzaheader .pizzaheadertext h2{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    
+}
+.pizza-container{
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+
+}
+.pizza-container .pizza {
+    margin-bottom:20px ;
+    padding: 20px;
+}
+.pizza{
+    background: #fff;
+    color: black;
+}
+.pizza h3, .pizza p{
+    text-align: left;
+}
+
+.pizza h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.pizza p{
+    font-size: 15px;
+    font-style: italic;
+}
+.pizza img{
+    padding-bottom: 20px;
+}
+/* appetizers */
+.container4{
+    background: #1a1a1a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.appetizers{
+    padding: 80px 60px;
+}
+.appetizers h1{
+    color: orangered;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.appetizers h3{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.appetizers p{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: gray;
+    padding-bottom: 30px;
+}
+.heroes{
+    padding: 80px 60px;
+}
+.heroes h1{
+    color: orangered;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.heroes h3{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.heroes p{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: gray;
+    padding-bottom: 30px;
+}
+.beliefimg{
+    background-color:#e73d0c ;
+}
+.belief {
+    max-width: 280px;
+    margin: 0 auto;
+    background: #fff;
+    color: rgb(65, 61, 61);
+    text-align: center;
+    height: 55vh;
+    position: relative;
+    top: -180px;
+}
+.belief p{
+    font-size: 20px;
+    padding: 35px 20px ;
+}
+.container5pizza {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 80px;
+    background: #e73d0c;
+    color: #fff;
+    position: relative;
+    top: -200px;
+}
+.container5pizza h1{
+    font-size:35px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'LucidaSans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 25px;
+}
+.container5pizza h3{
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+.container5pizza .p{
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-style: italic;
+}
+.storycontainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    margin: 0 auto;
+    position:relative;
+    top: -150px;
+    text-align: center;
+}
+.storycontainer img{
+    border-radius: 50px;
+    /* padding-bottom: 20px; */
+}
+.storycontainer h2{
+    padding-top: 20px;
+    font-size: 28px;
+}
+.storycontainer p{
+    color: #444444;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.storycontainer p span{
+    font-size: 30px;
+    font-weight: 900;
+    color: #1a1a1a;
+    padding-top: 50px;
+}
+.storycontainer ul li{
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    color: grey;
+}
+span{
+    font-size: 20px;
+}
+/* .find */
+.find{
+    text-align: center;
+    background-image: url(/images/belief.jpg);
+    position: relative;
+    bottom: 70px;
+    height: 85vh;
+}
+.findus{
+    background: white;
+    color: black;
+    padding-bottom: 25px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    padding-top: 15px;
+}
+.findus h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.findus p{
+    font-size: 18px;
+    color: #444444;
+}
+.hours{
+    position: relative;
+    top: 50px;
+    background: #fff;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.hours h3{
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top:15px;
+}
+.hours .days p{
+    font-size: 20px ;
+    font-weight: 400
+}
+.hours .time p{
+    font-size: 20px;
+    color: grey;
+    padding-bottom: 15px;
+}
+.callus{
+    position: relative;
+    top: 60px;
+    background: #fff;
+    color: black;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.callus h3{
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.callus p{
+    font-size: 20px;
+    color: orangered;
+    text-decoration: underline #ff004f;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width:768px){
+    .container .intro{
+        padding: 80px 150px;
+        display: flex;
+        
+    }
+    .header h6{
+        font-size: 18px;
+    }
+    .contact .address span{
+        font-size: 15px;
+    }
+    .image1 img{
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .container1{
+        display: flex;
+        flex-direction: row;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+    .work{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .pizzatypes .pizza-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 800px;
+        grid-gap: 15px;
+    }
+    .pizzaheadertext h2{
+        font-size: 100px;
+        position: relative;
+    }
+    .container4{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .section4{
+        max-width: 1800px;
+        background: #1a1a1a;
+    }
+    .appetizers{
+        padding: 40px 0;
+    }
+    .appetizers h1{
+        font-size: 50px;
+    }
+    .heroes h1{
+        font-size: 50px;
+        text-align: left;
+    }
+    .textbody{
+        text-align: left;
+    }
+    .beliefimg img{
+        height: 500px;
+    }
+    .belief{
+        max-width: 500px;
+        text-align: center;
+    }
+    .container5pizza{
+        flex-direction: row;
+        /* max-width: 1800px; */
+        margin: 0 auto;
+    }
+    .newyorkpizza h3 p{
+        text-align: left;
+    }
+    .section5{
+        text-align: center;
+        
+    }
+    .storysection{
+        align-items: center;
+        /* max-width: 1800px;
+        background: #fff; */
+    }
+    .storycontainer{
+        background: #fff;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+    }
+    .storycontainer img{
+        height: 400px;
+        width: 400px;
+    }
+    .storycontainer .story{
+        text-align: center;
+    }
+}
+    
